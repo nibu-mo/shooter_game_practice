@@ -156,5 +156,21 @@ namespace SpaceShooter
             UpMoveTimer.Stop();
         }
 
+        private void MoveMunitionTimer_Tick(object sender, EventArgs e)
+        {
+            for (int i = 0; i < munitions.Length; i++)
+            {
+                if (munitions[i].Top > 0)
+                {
+                    munitions[i].Visible = true;
+                    munitions[i].Top -= MunitionSpeed;
+                }
+                else
+                {
+                    munitions[i].Visible = false;
+                    munitions[i].Location = new Point(Player.Location.X + 20, Player.Location.Y - i * 30);
+                }
+            }
+        }
     }
 }
