@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+uisng WMPLib;
 
 namespace SpaceShooter
 {
@@ -26,7 +27,7 @@ namespace SpaceShooter
             InitializeComponent();
         }
 
-        private void From1_Load(object sender, EventArgs e)
+        private void Form1_Load(object sender, EventArgs e)
         {
             backgroundspeed = 4;
             playerSpeed = 4;
@@ -95,7 +96,7 @@ namespace SpaceShooter
 
         private void LeftMoveTimer_Tick(object sender, EventArgs e)
         {
-            if (Player.Left < 10)
+            if (Player.Left > 10)
             {
                 Player.Left -= playerSpeed;
             }
@@ -121,7 +122,7 @@ namespace SpaceShooter
 
         private void UpMoveTimer_Tick(object sender, EventArgs e)
         {
-            if (Player.Top < 10)
+            if (Player.Top > 10)
             {
                 Player.Top -= playerSpeed;
             }

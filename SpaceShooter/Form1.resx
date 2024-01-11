@@ -223,7 +223,7 @@
     <value>485, 21</value>
   </metadata>
   <metadata name="UpMoveTimer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>663, 21</value>
+    <value>667, 16</value>
   </metadata>
   <metadata name="MoveMunitionTimer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>817, 21</value>
