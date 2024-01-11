@@ -1,0 +1,10 @@
+C:\Users\mo-nibu\ドキュメント\自己学習\C#\Example Create_game\SpaceShooter\SpaceShooter\bin\Debug\SpaceShooter.exe.config
+C:\Users\mo-nibu\ドキュメント\自己学習\C#\Example Create_game\SpaceShooter\SpaceShooter\bin\Debug\SpaceShooter.exe
+C:\Users\mo-nibu\ドキュメント\自己学習\C#\Example Create_game\SpaceShooter\SpaceShooter\bin\Debug\SpaceShooter.pdb
+C:\Users\mo-nibu\ドキュメント\自己学習\C#\Example Create_game\SpaceShooter\SpaceShooter\obj\Debug\SpaceShooter.csproj.AssemblyReference.cache
+C:\Users\mo-nibu\ドキュメント\自己学習\C#\Example Create_game\SpaceShooter\SpaceShooter\obj\Debug\SpaceShooter.Form1.resources
+C:\Users\mo-nibu\ドキュメント\自己学習\C#\Example Create_game\SpaceShooter\SpaceShooter\obj\Debug\SpaceShooter.Properties.Resources.resources
+C:\Users\mo-nibu\ドキュメント\自己学習\C#\Example Create_game\SpaceShooter\SpaceShooter\obj\Debug\SpaceShooter.csproj.GenerateResource.cache
+C:\Users\mo-nibu\ドキュメント\自己学習\C#\Example Create_game\SpaceShooter\SpaceShooter\obj\Debug\SpaceShooter.csproj.CoreCompileInputs.cache
+C:\Users\mo-nibu\ドキュメント\自己学習\C#\Example Create_game\SpaceShooter\SpaceShooter\obj\Debug\SpaceShooter.exe
+C:\Users\mo-nibu\ドキュメント\自己学習\C#\Example Create_game\SpaceShooter\SpaceShooter\obj\Debug\SpaceShooter.pdb
