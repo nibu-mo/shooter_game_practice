@@ -37,6 +37,11 @@
             this.DownMoveTimer = new System.Windows.Forms.Timer(this.components);
             this.UpMoveTimer = new System.Windows.Forms.Timer(this.components);
             this.MoveMunitionTimer = new System.Windows.Forms.Timer(this.components);
+            this.MoveEnemiesTimer = new System.Windows.Forms.Timer(this.components);
+            this.EnemiesMunitionTimer = new System.Windows.Forms.Timer(this.components);
+            this.ReplayBtn = new System.Windows.Forms.Button();
+            this.ExitBtn = new System.Windows.Forms.Button();
+            this.label = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.Player)).BeginInit();
             this.SuspendLayout();
             // 
@@ -50,7 +55,7 @@
             // 
             this.Player.BackColor = System.Drawing.Color.Transparent;
             this.Player.Image = ((System.Drawing.Image)(resources.GetObject("Player.Image")));
-            this.Player.Location = new System.Drawing.Point(260, 400);
+            this.Player.Location = new System.Drawing.Point(350, 400);
             this.Player.Name = "Player";
             this.Player.Size = new System.Drawing.Size(50, 50);
             this.Player.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -83,15 +88,64 @@
             this.MoveMunitionTimer.Interval = 20;
             this.MoveMunitionTimer.Tick += new System.EventHandler(this.MoveMunitionTimer_Tick);
             // 
+            // MoveEnemiesTimer
+            // 
+            this.MoveEnemiesTimer.Enabled = true;
+            this.MoveEnemiesTimer.Tick += new System.EventHandler(this.MoveEnemiesTimer_Tick);
+            // 
+            // EnemiesMunitionTimer
+            // 
+            this.EnemiesMunitionTimer.Enabled = true;
+            this.EnemiesMunitionTimer.Interval = 20;
+            this.EnemiesMunitionTimer.Tick += new System.EventHandler(this.EnemiesMunitionTimer_Tick);
+            // 
+            // ReplayBtn
+            // 
+            this.ReplayBtn.Location = new System.Drawing.Point(250, 170);
+            this.ReplayBtn.Name = "ReplayBtn";
+            this.ReplayBtn.Size = new System.Drawing.Size(250, 50);
+            this.ReplayBtn.TabIndex = 1;
+            this.ReplayBtn.Text = "Replay";
+            this.ReplayBtn.UseVisualStyleBackColor = true;
+            this.ReplayBtn.Visible = false;
+            this.ReplayBtn.Click += new System.EventHandler(this.ReplayBtn_Click);
+            // 
+            // ExitBtn
+            // 
+            this.ExitBtn.Location = new System.Drawing.Point(250, 236);
+            this.ExitBtn.Name = "ExitBtn";
+            this.ExitBtn.Size = new System.Drawing.Size(250, 50);
+            this.ExitBtn.TabIndex = 2;
+            this.ExitBtn.Text = "Exit";
+            this.ExitBtn.UseVisualStyleBackColor = true;
+            this.ExitBtn.Visible = false;
+            this.ExitBtn.Click += new System.EventHandler(this.ExitBtn_Click);
+            // 
+            // label
+            // 
+            this.label.AutoSize = true;
+            this.label.Font = new System.Drawing.Font("Arial Rounded MT Bold", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label.Location = new System.Drawing.Point(319, 101);
+            this.label.Name = "label";
+            this.label.Size = new System.Drawing.Size(116, 39);
+            this.label.TabIndex = 3;
+            this.label.Text = "label1";
+            this.label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label.Visible = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MidnightBlue;
-            this.ClientSize = new System.Drawing.Size(582, 453);
+            this.ClientSize = new System.Drawing.Size(782, 453);
+            this.Controls.Add(this.label);
+            this.Controls.Add(this.ExitBtn);
+            this.Controls.Add(this.ReplayBtn);
             this.Controls.Add(this.Player);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MaximumSize = new System.Drawing.Size(600, 500);
+            this.MaximumSize = new System.Drawing.Size(800, 500);
             this.Name = "Form1";
             this.Text = "Space Shooter";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -99,6 +153,7 @@
             this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyUp);
             ((System.ComponentModel.ISupportInitialize)(this.Player)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -111,6 +166,11 @@
         private System.Windows.Forms.Timer DownMoveTimer;
         private System.Windows.Forms.Timer UpMoveTimer;
         private System.Windows.Forms.Timer MoveMunitionTimer;
+        private System.Windows.Forms.Timer MoveEnemiesTimer;
+        private System.Windows.Forms.Timer EnemiesMunitionTimer;
+        private System.Windows.Forms.Button ReplayBtn;
+        private System.Windows.Forms.Button ExitBtn;
+        private System.Windows.Forms.Label label;
     }
 }
 
