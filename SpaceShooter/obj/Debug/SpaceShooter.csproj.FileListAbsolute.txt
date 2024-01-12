@@ -20,3 +20,4 @@ C:\Users\mo-nibu\ドキュメント\自己学習\C#\Example Create_game\SpaceSho
 C:\Users\mo-nibu\ドキュメント\自己学習\C#\Example Create_game\SpaceShooter\shooter_game_practice\SpaceShooter\obj\Debug\SpaceShooter.pdb
 C:\Users\mo-nibu\ドキュメント\自己学習\C#\Example Create_game\SpaceShooter\shooter_game_practice\SpaceShooter\obj\Debug\Interop.WMPLib.dll
 C:\Users\mo-nibu\ドキュメント\自己学習\C#\Example Create_game\SpaceShooter\shooter_game_practice\SpaceShooter\obj\Debug\SpaceShooter.csproj.ResolveComReference.cache
+C:\Users\mo-nibu\ドキュメント\自己学習\C#\Example Create_game\SpaceShooter\shooter_game_practice\SpaceShooter\obj\Debug\Interop.MediaPlayer.dll
