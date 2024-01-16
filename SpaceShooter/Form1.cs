@@ -6,7 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using WMPLib;
+using WMPLib; // Imports the Windows Media Player library for playing media.
 using System.Windows.Forms;
 using System.Reflection.Emit;
 
@@ -333,7 +333,7 @@ namespace SpaceShooter
                     explosion.settings.volume = 30;
                     explosion.controls.play();
                     Player.Visible = false;
-                    GameOver("Fooo!! (ﾟ∀三ﾟ三∀ﾟ)" + Environment.NewLine + "You death! ( >ꇴ<)σ"); // Foo!!(ﾟ∀三ﾟ三∀ﾟ) You death!( >ꇴ<)σ
+                    GameOver("Fooo!! (ﾟ∀三ﾟ三∀ﾟ)" + Environment.NewLine + "You death! ( >ꇴ<)σ");
                 }
             }
         }
